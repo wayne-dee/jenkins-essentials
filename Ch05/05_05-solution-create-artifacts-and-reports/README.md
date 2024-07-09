@@ -78,7 +78,7 @@ pipeline {
                 git branch: 'main',
                     changelog: false,
                     poll: false,
-                    url: 'https://github.com/LinkedInLearning/essential-jenkins-2468076.git'
+                    url: 'https://github.com/wayne-dee/jenkins-essentials.git'
             }
         }
         stage('Clean') {
