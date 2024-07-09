@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-      maven 'Maven-3.8.4'
+      maven 'maven-3.9.9'
     }
     stages {
         stage('Source') {
@@ -9,7 +9,7 @@ pipeline {
                 git branch: 'main',
                     changelog: false,
                     poll: false,
-                    url: 'https://github.com/LinkedInLearning/essential-jenkins-2468076.git'
+                    url: 'https://github.com/wayne-dee/jenkins-essentials.git/'
             }
         }
         stage('Clean') {
